@@ -1,0 +1,54 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+import static java.lang.System.in;
+import static java.lang.System.out;
+
+public class BOJ_3079 {
+    private static final BufferedReader br = new BufferedReader(new InputStreamReader(in));
+
+    public static void main(String[] args) throws IOException {
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        long size = Long.parseLong(st.nextToken());
+        long memberSize = Long.parseLong(st.nextToken());
+
+        long[] counter = new long[(int) size];
+
+        long max = 0;
+
+        for (int i = 0; i < size; i++) {
+            counter[i] = Long.parseLong(br.readLine());
+            max = Math.max(counter[i], max);
+        }
+
+        long startIndex = 1;
+        long endIndex = max * memberSize;
+        long result = 0;
+
+        while (startIndex <= endIndex) {
+            long midIndex = (startIndex + endIndex) / 2;
+
+            if (isPossible(midIndex, counter, memberSize)) {
+                result = midIndex;
+                endIndex = midIndex - 1;
+            } else {
+                startIndex = midIndex + 1;
+            }
+        }
+
+        out.println(result);
+    }
+
+    private static boolean isPossible(long midIndex, long[] counter, long memberSize) {
+        for (long minute : counter) {
+            memberSize -= midIndex / minute;
+            if (memberSize <= 0) return true;
+        }
+
+        return false;
+    }
+
+}

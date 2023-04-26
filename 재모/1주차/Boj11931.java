@@ -39,7 +39,6 @@ public class Boj11931 {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        System.out.println("내림차순 정렬합니다.");
         quickSort(arr, 0, n - 1);
 
         for (int i : arr) {

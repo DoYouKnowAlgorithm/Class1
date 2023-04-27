@@ -2,7 +2,7 @@ import java.io.*;
 
 import static java.lang.System.*;
 
-public class Main {
+public class BOJ_2012 {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(in));
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(out));
 

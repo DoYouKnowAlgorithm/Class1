@@ -1,8 +1,6 @@
 import java.io.*;
-import java.util.Arrays;
-import java.util.Comparator;
 
-public class Main {
+public class BOJ_11931 {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     private static int[] arr;

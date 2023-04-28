@@ -12,8 +12,8 @@ public class BOJ19637 {
     public static void main(String[] args) throws IOException {
 
         stk = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(stk.nextToken()); // 3
-        int m = Integer.parseInt(stk.nextToken()); // 8
+        int n = Integer.parseInt(stk.nextToken());
+        int m = Integer.parseInt(stk.nextToken());
         chinghoNames = new String[n];
         combatPowers = new int[n];
         for (int i = 0; i < n; i++) {
@@ -24,19 +24,24 @@ public class BOJ19637 {
 
         for (int i = 0; i < m; i++) {
             int combatPower = Integer.parseInt(br.readLine());
-            int l = 0, r = n - 1;
-            while (l <= r) {
-                int mid = (l + r) / 2;
-                if (combatPowers[mid] < combatPower) {
-                    l = mid + 1;
-                } else {
-                    r = mid - 1;
-                }
-            }
-            bw.write(chinghoNames[l] + "\n");
+            int left = 0, right = n - 1;
+            left = binarySearch(combatPower, left, right);
+            bw.write(chinghoNames[left] + "\n");
         }
         bw.flush();
         br.close();
         bw.close();
+    }
+
+    private static int binarySearch(int combatPower, int left, int right) {
+        while (left <= right) {
+            int middle = (left + right) / 2;
+            if (combatPowers[middle] < combatPower) {
+                left = middle + 1;
+            } else {
+                right = middle - 1;
+            }
+        }
+        return left;
     }
 }

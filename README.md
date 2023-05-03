@@ -19,7 +19,7 @@
 | --- |-----------------------------------------------------|
 | 1주차 | 정렬 & 탐색                                             |
 | 2주차 | 재귀 & 그리디 |  
-| 3주차 | |
+| 3주차 | BFS & DP |
 | 4주차 | |
   
 <br>
@@ -32,6 +32,8 @@
 | 기본 | 실버3 | [등수 매기기 (정렬)](https://www.acmicpc.net/problem/2012), [IF문 좀 대신 써줘 (이분탐색)](https://www.acmicpc.net/problem/19637) |
 | 심화 | 골드5 | 🔥 [입국 심사](https://www.acmicpc.net/problem/3079) 🔥                                                              |
   
+✌️ BONUS : [휴게소 (이분 탐색)](https://www.acmicpc.net/problem/1477)
+  
 <h3> 재귀 & 그리디 </h3>
 
 | 주차 | 난이도 | 문제                                                                                                               |
@@ -39,6 +41,16 @@
 | 필수 | 실버5 | [뒤집기 (그리디)](https://www.acmicpc.net/problem/1439)                                          |
 | 기본 | 실버2-3 | [투에-모스 문자열 (재귀)](https://www.acmicpc.net/problem/18222), [특별상이라도 받고 싶어 (재귀)](https://www.acmicpc.net/problem/24460) |
 | 심화 | 골드5 | 🔥 [강의실 (그리디)](https://www.acmicpc.net/problem/1374) 🔥                                                              |
+  
+✌️ BONUS : [강의실 배정 (그리디)](https://www.acmicpc.net/problem/11000)
+  
+<h3> BFS & DP </h3>
+
+| 주차 | 난이도 | 문제                                                                                                               |
+| --- |-----|------------------------------------------------------------------------------------------------------------------|
+| 필수 | 실버5 | [거스름돈 (DP)](https://www.acmicpc.net/problem/14916)                                          |
+| 기본 | 실버2-3 | [알고리즘 수업 - 너비 우선 탐색 1 (BFS)](https://www.acmicpc.net/problem/24444), [다이나믹이 뭐예요? (DP)](https://www.acmicpc.net/problem/14494) |
+| 심화 | 골드4 | 🔥 [뮤탈리스크 (BFS)](https://www.acmicpc.net/problem/12869) 🔥                                                              |
   
 </details>
 

@@ -59,8 +59,7 @@ public class BOJ_1374 {
             Lecture cur = lectures.poll();
             if (!rooms.isEmpty()) {
                 if (rooms.peek() <= cur.start) {
-                    int temp = rooms.poll();
-                    System.out.println(temp);
+                    rooms.poll();
                 } else {
                     answer++;
                 }

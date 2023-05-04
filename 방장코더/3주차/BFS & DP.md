@@ -40,11 +40,21 @@
 
 #### 👉 접근법
 
-- ㅇㅇ
+- 이 문제는 예전에 풀었던 문제라 쉽게 답이 떠올랐다. 하지만 이번에 접근법은 그때와 다르다.
+- 우선 시간 복잡도를 조금이나마 접근할 수 있었기 때문이다.
+- 로직은 우선순위큐에 넣으면서 자동으로 정렬을 맡겼고 (시간복잡도도 유리하다)
+- 방문하는 순서대로 정답 배열에 추가하면서 정답을 채워나갔다.
+- bfs의 가장 기본적인 로직이라 딱히 추가 설명이 어렵다.. (그림으로 대체한다)
 
 #### ⏳ 시간복잡도
 
-- ㅇㅇ
+- 제 로직의 시간 복잡도는.....
+- 우선순위 큐를 new 해주는 for문에서 O(nodeSize)
+- 간선의 수만큼 입력받는 for문에서 O(edgeSize) + 우선순위 큐 정렬시간 O(edgeSize log edgeSize)
+- BFS 를 돌면서 O(log edgeSize)
+- 마지막 정답을 만드는 for문에서 O(nodeSize)
+- O(nodeSize) + O(edgeSize) + O(edgeSize log edgeSize) + O(log edgeSize) + O(nodeSize)..?
+- 시간복잡도는 O(2nodeSize+edgeSize + edgeSize log edgeSize)
 
 #
 

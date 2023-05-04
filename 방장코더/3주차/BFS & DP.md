@@ -56,7 +56,10 @@
 - O(nodeSize) + O(edgeSize) + O(edgeSize log edgeSize) + O(log edgeSize) + O(nodeSize)..?
 - 시간복잡도는 O(2nodeSize+edgeSize + edgeSize log edgeSize)
 
-#
+
+![24444](https://user-images.githubusercontent.com/110602069/236210565-3fbf094f-2ff4-49e6-a9b6-18ce1c361e5a.jpeg)
+
+
 
 ### 🎯 [BOJ_14494] 다이나믹이 뭐예요?
 

@@ -64,6 +64,9 @@
 - n * m 만큼 돌기 때문에 O(n*m) 의 복잡도라 생각한다.
 
 
+![14494](https://user-images.githubusercontent.com/110602069/236133375-27dd6793-3ac8-415a-a0e8-888ebe140e71.jpeg)
+
+
 
 #
 

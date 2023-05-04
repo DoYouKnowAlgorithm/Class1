@@ -27,7 +27,10 @@
 
 - 0부터 N까지 반복문을 1번 돌기 때문에 O(n) 이라 생각한다.
 
-![거스름돈.jpeg](..%2F..%2F..%2F..%2FDownloads%2F%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.jpeg)
+
+![거스름돈](https://user-images.githubusercontent.com/110602069/236113635-6d934d40-c88a-46e3-a92e-9317f14421e3.jpeg)
+
+
 
 #
 

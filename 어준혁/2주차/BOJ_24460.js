@@ -1,6 +1,6 @@
 const fs = require("fs");
-
 const input = fs.readFileSync("/dev/stdin").toString().split("\n");
+
 const N = parseInt(input[0]);
 const graph = [];
 for (let i = 1; i <= N; i++) {

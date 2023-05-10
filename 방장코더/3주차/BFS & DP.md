@@ -100,3 +100,6 @@
 #### ⏳ 시간복잡도
 
 - O(n^2) 무지성 완전 탐색같아서요..
+
+
+![12869](https://github.com/DoYouKnowAlgorithm/Class1/assets/110602069/d59581cd-ae24-4168-8de2-d982f7a15e87)

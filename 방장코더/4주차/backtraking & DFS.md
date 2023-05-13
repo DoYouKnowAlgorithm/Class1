@@ -29,6 +29,10 @@
 
 - 중복없는 순열이 조건이기 때문에 O(n!)이라 생각이 듭니다
 
+
+![10974](https://github.com/DoYouKnowAlgorithm/Class1/assets/110602069/ebcd2594-a5d0-42ad-98ed-3fd8aca7974a)
+
+
 #
 
 ### 🎯 [BOJ_10971] 외판원 순회 2

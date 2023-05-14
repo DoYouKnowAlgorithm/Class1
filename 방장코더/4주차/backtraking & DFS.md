@@ -59,6 +59,7 @@
 - 비용을 계산하는 시간 O(N)
 - O(N+N!)??..
 
+![10971](https://github.com/DoYouKnowAlgorithm/Class1/assets/110602069/af65aaca-7d64-4c5a-9d08-9296878a377c)
 
 
 <br>

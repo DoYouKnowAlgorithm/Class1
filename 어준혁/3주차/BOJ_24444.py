@@ -10,7 +10,7 @@ input = sys.stdin.readline
 n, m, r = map(int, input().split())
 
 # 그래프는 1부터 시작
-graph = graph = [[] for _ in range(n + 1)]
+graph = [[] for _ in range(n + 1)]
 visited = [0] * (n + 1)
 count = 1
 
@@ -39,3 +39,5 @@ bfs(r)
 
 for v in visited[1:]:
     print(v)
+
+# 3 n logN 1 1 1 1 m

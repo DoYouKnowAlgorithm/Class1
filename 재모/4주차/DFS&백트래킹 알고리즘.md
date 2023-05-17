@@ -4,10 +4,10 @@
 ```java
 public static void dfs(int startVertex) {
         Stack stack = new Stack();
-				visited[startVertex] = true;
+	visited[startVertex] = true;
         stack.push(startVertex);
         int count = 0;
-				result[startVertex] = ++count;
+	result[startVertex] = ++count;
 
         while (!stack.isEmpty()) {
             int v = (int) stack.peek();
@@ -16,9 +16,9 @@ public static void dfs(int startVertex) {
                 int nextV = adjList.get(v).get(i);
                 if (!visited[nextV]) {
                     hasNearVertex = true;
-										visited[nextV] = true;
+		    visited[nextV] = true;
                     stack.push(nextV);
-										result[nextV] = ++count;
+		    result[nextV] = ++count;
                 }
             }
 

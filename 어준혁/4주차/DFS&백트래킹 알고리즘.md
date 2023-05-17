@@ -17,7 +17,7 @@
 
 ### 🅰️ 프로그래밍에서 그래프를 표현하는 방식
 
-![이미지](C:\Users\anftl\OneDrive\바탕 화면\KakaoTalk_20230517_204735788.jpg)
+![이미지](https://github.com/DoYouKnowAlgorithm/Class1/assets/94384392/8f3e1df0-6e09-49cd-bea8-7ba5d7d6e2e1)
 
 - 인접 행렬: 2차원 배열에서 각 노드가 연결된 형태를 기록하는 방식
 

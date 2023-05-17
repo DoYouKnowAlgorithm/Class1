@@ -63,7 +63,6 @@ public class Boj11123 {
             }
 
             if (grid[nCol][nRow] && !visited[nCol][nRow]) {
-                visited[nCol][nRow] = true;
                 dfs(nCol, nRow);
             }
         }

@@ -7,7 +7,7 @@ visited=[False for _ in range(n)]
 min_money = sys.maxsize
 
 def back(start, cur, money):
-    global money_arr, visited, min_money
+    global money_arr , visited, min_money
     if start == cur and visited.count(False) == 0:
         min_money = min(min_money, money) # 한 사이클이 끝났을 때 더 작은 값을 저장
 
